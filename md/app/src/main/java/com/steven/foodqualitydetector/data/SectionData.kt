@@ -6,8 +6,8 @@ object SectionData {
     val sections = listOf(
         Section(
             resource = R.drawable.onboarding_illustration,
-            title = "Selamat datang di Food Detective Mobile!",
-            description = "Food Detective Mobile adalah sebuah aplikasi untuk mendeteksi apakah suatu makanan masih layak dikonsumsi."
+            title = "Selamat datang di Food Quality Detector!",
+            description = "Food Quality Detector adalah sebuah aplikasi untuk mendeteksi apakah suatu makanan masih layak dikonsumsi."
         ),
         Section(
             resource = R.drawable.scan,
