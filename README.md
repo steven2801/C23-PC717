@@ -144,4 +144,4 @@ python main.py
 
 Now you can access the application at http://localhost:8080.
 
-To predict an image, send a POST HTTP Request to the `/predict_image` endpoint with image file (jpg/jpeg) as request body.
+To predict an image, send a POST HTTP Request to the `/predict_image` endpoint with image file (jpeg/png) as request body.
