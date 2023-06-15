@@ -63,8 +63,9 @@ with open('./my_model_folder/labels', 'r') as file:
     file_content = file.read()
 
 lines = file_content.split('\n')
-lines = [line for line in lines if line.strip()]
+lines = [line.replace('_', ' ') for line in lines if line.strip()]
 labels = lines
+
 
 print(labels)
 
@@ -78,8 +79,6 @@ def predict_image(uploaded_file: UploadFile, response: Response):
 
         img = load_image_into_numpy_array(uploaded_file.file.read())
         image = np.resize(img, (150, 150, 3)) / 255.0
-
-        print(image)
 
         input_data = tf.constant([image], dtype=tf.float32)
 
