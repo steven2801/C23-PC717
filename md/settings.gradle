@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "Food Quality Detector"
+rootProject.name = "Whole Foods Quality Detector"
 include ':app'
