@@ -10,7 +10,7 @@ export const getLabelsPercentagesAndCategory = (response: AxiosResponse) => {
   // const bestResultIndex = results.indexOf(Math.max(...results));
   // const category = labels[bestResultIndex].split(" ")[0];
 
-  const category = max[0].split("_")[0];
+  const category = max[0].split(" ")[0];
 
   const percentages: string[] = results.map((value) => `${(value * 100).toFixed(1)}%`);
 
