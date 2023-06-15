@@ -75,7 +75,7 @@ def predict_image(uploaded_file: UploadFile, response: Response):
             return "File is Not an Image"
 
         img = load_image_into_numpy_array(uploaded_file.file.read())
-        image = np.resize(img, (150, 150, 3)) / 255.0
+        image = np.resize(img, (480, 480, 3)) / 255.0
 
         input_data = tf.constant([image], dtype=tf.float32)
 
