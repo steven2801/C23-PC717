@@ -16,7 +16,7 @@ import retrofit2.http.POST
 import retrofit2.http.Part
 
 private const val BASE_URL =
-    "https://api-capstone-zhlt4shl3q-as.a.run.app/api/"
+    "https://cc-zhlt4shl3q-as.a.run.app/api/"
 
 private val httpClient = OkHttpClient.Builder()
     .addInterceptor(HttpLoggingInterceptor().apply {
