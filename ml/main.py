@@ -67,9 +67,6 @@ lines = [line.replace('_', ' ') for line in lines if line.strip()]
 labels = lines
 
 
-print(labels)
-
-
 @app.post("/predict_image")
 def predict_image(uploaded_file: UploadFile, response: Response):
     try:
