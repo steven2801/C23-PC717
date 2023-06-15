@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Food Quality Detector</string>
+    <string name="placeholder_search">Search</string>
+    <string name="web_client_id">62299309036-3fhdn1000hppiuhe72oeom1n3dijtbso.apps.googleusercontent.com</string>
+</resources>

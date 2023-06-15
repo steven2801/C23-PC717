@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "62299309036",
+    "firebase_url": "https://auth-15f80-default-rtdb.asia-southeast1.firebasedatabase.app/",
+    "project_id": "auth-15f80",
+    "storage_bucket": "auth-15f80.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:62299309036:android:d5c775e2f268781adeb6c9",
+        "android_client_info": {
+          "package_name": "com.steven.foodqualitydetector"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "62299309036-mfrj298aq46r9u649e6o7c1i3a5dbn4p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.steven.foodqualitydetector",
+            "certificate_hash": "99b37a249128f7002d09d1e05f6cb1b9fa10008f"
+          }
+        },
+        {
+          "client_id": "62299309036-3fhdn1000hppiuhe72oeom1n3dijtbso.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCwUIOBEm__FgYS6Acw9iuxQFn0CpSM8Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "62299309036-3fhdn1000hppiuhe72oeom1n3dijtbso.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
