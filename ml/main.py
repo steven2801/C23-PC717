@@ -78,7 +78,7 @@ def predict_image(uploaded_file: UploadFile, response: Response):
 
         img = tf.io.decode_image(img, channels=3)
 
-        image = tf.image.resize(img, [480, 480])
+        image = tf.image.resize(img, [224, 224])
         image = tf.expand_dims(image, axis=0)
 
         input_data = image/255.0
@@ -96,12 +96,6 @@ def predict_image(uploaded_file: UploadFile, response: Response):
         sorted_list = sorted(zip(labels, results_array),
                              key=lambda x: x[1], reverse=True)
         sorted_labels, sorted_results = zip(*sorted_list)
-
-        print(json.dumps({
-            'labels': list(sorted_labels),
-            'results': list(sorted_results),
-            'max': max_result
-        }, indent=2))
 
         return json.dumps({
             'labels': list(sorted_labels),
