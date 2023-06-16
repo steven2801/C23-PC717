@@ -15,6 +15,10 @@ Mobile app that detects whether a food is fresh or stale using Stratified CNN mo
 
 Theme : Food Accessibility, Agribusiness, and Food Security
 
+## Demo
+
+https://github.com/steven2801/C23-PC717/assets/70851099/d41d5b6a-ba80-43c5-bef9-48cd92861c4c
+
 ## Installation (MD)
 
 ### Prerequisites
