@@ -19,4 +19,4 @@ Theme : Food Accessibility, Agribusiness, and Food Security
 
 https://github.com/steven2801/C23-PC717/assets/70851099/1777c451-a072-411b-85f6-1ff5013dd79c
 
-Refer to the `README.md` located inside of `cc`. `md`, and `ml` folder for further installation guide.
+Refer to the `README.md` located inside of `cc`, `md`, and `ml` folder for further installation guide.
