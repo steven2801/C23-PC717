@@ -102,6 +102,7 @@ cp .env.example .env
 GOOGLE_PROJECT_ID=<your_google_project_id>
 GOOGLE_PRIVATE_KEY=<your_google_private_key>
 GOOGLE_CLIENT_EMAIL=<your_google_client_email>
+ML_API_URL=<your_ml_api_url>
 
 ```
 
