@@ -1,4 +1,4 @@
-# Food Quality Detector, Bangkit 2023 Final Capstone Project
+# Whole Foods Quality Detector, Bangkit 2023 Final Capstone Project
 
 Mobile app that detects whether a food is fresh or stale using Stratified CNN model.
 
