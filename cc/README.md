@@ -1,6 +1,4 @@
-# Node.js Express App
-
-This is a Node.js Express application that requires the following environment variables to be set before running the app.
+## Installation Guide
 
 ## Prerequisites
 
@@ -11,41 +9,51 @@ Before running the application, make sure you have the following:
 
 ## Installation
 
-1. Clone the repository:
+### 1. Clone the Repository
 
-   ```shell
-   git clone <repository_url>
+Clone this repository to your local machine using Git:
 
-   ```
+```shell
+$ git clone https://github.com/steven2801/C23-PC717.git
+```
 
-2. Install the dependencies:
+Navigate to `/cc`
 
-   ```shell
-   yarn
+```shell
+$ cd C23-PC717/cc
+```
 
-   ```
+### 2. Install the dependencies:
 
-3. Create a copy of the .env.example file and name it .env:
+```shell
+yarn
 
-   ```shell
-   cp .env.example .env
+```
 
-   ```
+### 3. Create a copy of the .env.example file and name it .env:
 
-4. Open the .env file and fill in the required environment variables:
+```shell
+cp .env.example .env
 
-   ```makefile
-   GOOGLE_PROJECT_ID=<your_google_project_id>
-   GOOGLE_PRIVATE_KEY=<your_google_private_key>
-   GOOGLE_CLIENT_EMAIL=<your_google_client_email>
+```
 
-   ```
+### 4. Open the .env file and fill in the required environment variables:
 
-5. Start the application locally
-   ```shell
-   yarn dev
-   ```
+```makefile
+GOOGLE_PROJECT_ID=<your_google_project_id>
+GOOGLE_PRIVATE_KEY=<your_google_private_key>
+GOOGLE_CLIENT_EMAIL=<your_google_client_email>
+
+```
+
+### 5. Start the application locally
+
+```shell
+yarn dev
+```
 
 Now you can access the application at http://localhost:3000.
 
 Make sure to replace the environment variable values with your actual credentials.
+
+Check [`src/index.ts`](https://github.com/steven2801/C23-PC717/blob/main/cc/src/index.ts#LL16C1-L24C52) for available API endpoints.
